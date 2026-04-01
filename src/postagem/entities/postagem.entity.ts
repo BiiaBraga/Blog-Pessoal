@@ -7,7 +7,7 @@ export class Postagem{
 
     //atributos
     @PrimaryGeneratedColumn() // Cria uma chave primaria e auto increment
-    _id!: number;
+    id!: number;
 
     @IsNotEmpty() //verifica se o campo está vazio
     @Column({length: 100, nullable:false})
